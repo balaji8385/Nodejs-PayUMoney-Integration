@@ -1,0 +1,23 @@
+{
+  "name": "PayUMony",
+  "version": "0.0.1",
+  "description": "Payment gateway integration ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssitbiz/GetSetGo/tree/master/payUmoney"
+  },
+  "keywords": [
+    "PayUmoney"
+  ],
+  "author": "venkat7668",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}
