@@ -93,7 +93,8 @@ and open the template in the editor.
 <td><input name="pg"  /></td>
 </tr>
 <td colspan="4">
-    <button id="buttonmain" type="button">Save</button><button type="submit"></button></td>
+    <button id="buttonmain" type="button">Save</button>
+    <button type="submit" hidden></button></td>
 </tr>
 </table>
 </form>
@@ -111,7 +112,7 @@ and open the template in the editor.
                 console.log(data);
                 console.log(data.data);
             $('form[name="payuform"] input[name="hash"]').val(data);
-            // $("#payuform").submit();
+            $("#payuform").submit();
             },
             error: function (data) {
                 console.log('An error occurred.');
